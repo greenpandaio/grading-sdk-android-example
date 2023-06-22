@@ -1,0 +1,113 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs'
+}
+
+android {
+    namespace 'io.pandas.grading_sdk_android_example'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "io.pandas.grading_sdk_android_example"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    // Amazon S3 Client
+    implementation "aws.sdk.kotlin:s3:$amazon_s3_client_version"
+
+    // Ably realtime SDK
+    implementation "io.ably:ably-android:$ably_version"
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
+    implementation "androidx.navigation:navigation-compose:$nav_version"
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+
+    // Biometrics
+    implementation "androidx.biometric:biometric-ktx:$biometric_version"
+
+    // CameraX core library
+    implementation "androidx.camera:camera-core:$camerax_version"
+
+    // CameraX Camera2 extensions
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+
+    // CameraX Lifecycle library
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+
+    // CameraX View class
+    implementation "androidx.camera:camera-view:$camerax_version"
+
+    // UI for PageViewer card swipe indicator
+    implementation "com.tbuonomo:dotsindicator:4.3"
+
+    // UI for dots loader
+    implementation "com.airbnb.android:lottie:$lottie_version"
+
+    // Object Detection
+    implementation 'org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2'
+    implementation 'com.google.android.gms:play-services-tflite-gpu:16.1.0'
+
+    // Face Detection
+    implementation 'com.google.mediapipe:solution-core:latest.release'
+    implementation 'com.google.mediapipe:facedetection:latest.release'
+
+    // Wrapper for Log
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+    // Coroutine
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version"
+
+    // A standard for network calls
+    implementation "com.github.skydoves:sandwich:$sandwich_version"
+
+    // Dependency to include Maps SDK for Android
+    implementation "com.google.android.gms:play-services-maps:$play_services_map_version"
+
+    // Google Location
+    implementation "com.google.android.gms:play-services-location:$play_services_location"
+
+    implementation 'com.google.android.libraries.places:places:3.1.0'
+    implementation files("libs/pandas-grading-sdk.aar")
+}
