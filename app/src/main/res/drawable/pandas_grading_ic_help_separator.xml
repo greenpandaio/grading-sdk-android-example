@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="341dp"
+    android:height="32dp"
+    android:viewportWidth="341"
+    android:viewportHeight="32">
+  <path
+      android:pathData="M134.9,14L27.3,14A1,1 0,0 0,26.3 15L26.3,15A1,1 0,0 0,27.3 16L134.9,16A1,1 0,0 0,135.9 15L135.9,15A1,1 0,0 0,134.9 14z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startX="135.9"
+          android:startY="17"
+          android:endX="26.3"
+          android:endY="17"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFE0E0E0"/>
+        <item android:offset="1" android:color="#02E0E0E0"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M207.05,13L314.65,13A1,1 0,0 1,315.65 14L315.65,14A1,1 0,0 1,314.65 15L207.05,15A1,1 0,0 1,206.05 14L206.05,14A1,1 0,0 1,207.05 13z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startX="206.05"
+          android:startY="16"
+          android:endX="315.65"
+          android:endY="16"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFE0E0E0"/>
+        <item android:offset="1" android:color="#02E0E0E0"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M170.98,30C179.45,30 186.32,23.73 186.32,16C186.32,8.27 179.45,2 170.98,2C162.5,2 155.63,8.27 155.63,16C155.63,23.73 162.5,30 170.98,30Z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2.8"
+      android:fillColor="#00000000"
+      android:fillType="evenOdd"
+      android:strokeColor="#1D1D1D"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M170.98,25.04C171.86,25.04 172.57,24.39 172.57,23.58C172.57,22.78 171.86,22.13 170.98,22.13C170.09,22.13 169.38,22.78 169.38,23.58C169.38,24.39 170.09,25.04 170.98,25.04Z"
+      android:fillColor="#1D1D1D"/>
+  <path
+      android:pathData="M170.98,18.33V17.17C171.86,17.17 172.73,16.93 173.46,16.48C174.2,16.03 174.77,15.39 175.11,14.65C175.45,13.9 175.54,13.08 175.37,12.29C175.19,11.5 174.77,10.77 174.14,10.2C173.51,9.63 172.72,9.24 171.85,9.08C170.98,8.92 170.08,9 169.26,9.31C168.45,9.62 167.75,10.14 167.26,10.82C166.76,11.49 166.5,12.28 166.5,13.08"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2.8"
+      android:fillColor="#00000000"
+      android:strokeColor="#1D1D1D"
+      android:strokeLineCap="round"/>
+</vector>
