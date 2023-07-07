@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.provider.CalendarContract
 import android.provider.Settings
 import android.widget.Button
-import androidx.compose.ui.graphics.Color
 import io.pandas.grading.Grading
 import io.pandas.grading.config.ConfigData
 import io.pandas.grading.config.ConfigEvaluationNames
@@ -22,7 +21,7 @@ class MainActivity : AppCompatActivity() {
                 ConfigEvaluationNames.FRONT_CAMERA,
                 ConfigEvaluationNames.MULTITOUCH
             ),
-            colors = Colors(primary = "#1a1a1a")
+            colors = Colors(primary = "#cccccc")
         )
         Grading.setConfig(applicationContext, config)
 

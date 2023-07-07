@@ -4,24 +4,6 @@ buildscript {
     repositories {
         google()
     }
-    ext {
-        kotlin_version = "1.9.0"
-        lifecycle_version = "2.6.1"
-        nav_version = "2.5.3"
-        camerax_version = "1.1.0-beta03"
-        retrofit_version = "2.9.0"
-        coroutine_version = "1.6.4"
-        biometric_version = "1.2.0-alpha05"
-        sandwich_version = "1.3.5"
-        lottie_version = "3.4.0"
-        play_services_map_version = "18.1.0"
-        play_services_location = "21.0.1"
-        amazon_s3_client_version = "0.25.0-beta"
-        ably_version = "1.2.30"
-    }
-    dependencies {
-        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
-    }
 }
 plugins {
     id 'com.android.application' version '8.0.2' apply false
