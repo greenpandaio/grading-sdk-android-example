@@ -128,3 +128,61 @@ res/
        ...
 
 ```
+
+## Compose compatibility
+For newer apps that use modern android compose follow [this](https://developer.android.com/jetpack/compose/libraries) guide on how to integrate the library. 
+### Example:
+```
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        Grading.setConfig(applicationContext, ConfigData(
+            evaluations = listOf(
+                ConfigEvaluationNames.DIGITIZER,
+                ConfigEvaluationNames.IMEI),
+            colors = Colors(primary = "#1a1a1a")
+        ))
+
+
+        setContent {
+            ComposeEmptyAppTheme {
+                // A surface container using the 'background' color from the theme
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .fillMaxHeight(),
+                        verticalArrangement = Arrangement.Center,
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        GradingSDKButton(applicationContext)
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@Composable
+fun GradingSDKButton(context: Context) {
+    Button(onClick = {
+        Grading.start(context)
+    }
+    ) {
+        Text("Click Me")
+    }
+}
+```
+
+Then in `AndroidManifest.xml` inside the `<application>` tag add:
+```
+<activity
+   android:name="io.pandas.grading.MainActivity"
+   android:theme="@style/Theme.MaterialComponents">
+</activity>
+```
