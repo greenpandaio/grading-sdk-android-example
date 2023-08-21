@@ -10,6 +10,8 @@ import io.pandas.grading.Grading
 import io.pandas.grading.config.ConfigData
 import io.pandas.grading.config.ConfigEvaluationNames
 import io.pandas.grading.config.data_access.Colors
+import io.pandas.grading.config.data_access.Environment
+import io.pandas.grading.config.data_access.Partner
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +23,9 @@ class MainActivity : AppCompatActivity() {
                 ConfigEvaluationNames.FRONT_CAMERA,
                 ConfigEvaluationNames.MULTITOUCH
             ),
-            colors = Colors(primary = "#cccccc")
+            colors = Colors(primary = "#cccccc"),
+            partner = Partner(id = "b12d1750-c81e-42a9-9091-dc0acb0f8e50", name = "pandas", country = "el-GR"),
+            environment = Environment.STAGING
         )
         Grading.setConfig(applicationContext, config)
 

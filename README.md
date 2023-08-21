@@ -54,16 +54,21 @@ Initially configuration is optional. If nothing is configured the SDK will run w
 ### Base config
 Basic configuration is done by passing the `ConfigData` object to the `Grading.setConfig` function.
 For example to customise the assessment tests that will be included and the primary color you can pass the following config object.
+Also you can switch between Staging or Production environments.
+Partner id and name is **required** and is specific to your company account at pandas.
+
 ```
-         val config = ConfigData(
+        val config = ConfigData(
             evaluations = arrayListOf(
                 ConfigEvaluationNames.DIGITIZER,
                 ConfigEvaluationNames.FRONT_CAMERA,
                 ConfigEvaluationNames.MULTITOUCH
             ),
-            colors = Colors(primary = "#1a1a1a")
+            colors = Colors(primary = "#cccccc"),
+            partner = Partner(id = "b12d1750-c81e-42a9-9091-dc0acb0f8e50", name = "pandas", country = "el-GR"),
+            environment = Environment.STAGING
         )
-        Grading.setConfig(applicationContext, config)
+        Grading.setConfig(applicationContext, config) 
 ```
 Colors, Images, Fonts , and Strings can all be modified by inserting the corresponding .xml files in the values && drawable directories
  
