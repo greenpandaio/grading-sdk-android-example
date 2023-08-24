@@ -4,6 +4,9 @@ Open Android studio and create a new **"Empty views Activity Project"**
 
 ## Installing the SDK
 ### Add private maven repository.
+The pandas grading sdk is hosted on 2 maven repositories. Github Packages and Repsy. You can use either of the 2. 
+Main difference is that GitHub Packages requires authentication with your GitHub credentials while Repsy is publicly accessible.
+
 Add the PandasGrading private repository to your `settings.gradle` file along with your github access credentials (You can hardcode them for debug purposes but absolutely avoid pushing to your repo)
 Use environment variables or project properties instead.
 
@@ -20,12 +23,16 @@ dependencyResolutionManagement {
                 password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
             }
         }
+        // OR
+        maven {
+            url = uri("https://repo.repsy.io/mvn/pandas/pandas-maven")
+        }
     }
 }
 ```
 
 ### Add pandas-grading-sdk depedency.
-In your app level `build.gradle` add `'io.pandas.grading:pandas-grading-sdk:0.1.1'` as a depedency
+In your app level `build.gradle` add `'io.pandas.grading:pandas-grading-sdk:0.1.13'` as a depedency
 
 ## Using the SDK
 
