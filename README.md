@@ -32,7 +32,7 @@ dependencyResolutionManagement {
 ```
 
 ### Add pandas-grading-sdk depedency.
-In your app level `build.gradle` add `'io.pandas.grading:pandas-grading-sdk:0.1.13'` as a depedency
+In your app level `build.gradle` add `'io.pandas.grading:pandas-grading-sdk:0.1.15'` as a depedency
 
 ## Using the SDK
 
@@ -62,9 +62,13 @@ Initially configuration is optional. If nothing is configured the SDK will run w
 Basic configuration is done by passing the `ConfigData` object to the `Grading.setConfig` function.
 For example to customise the assessment tests that will be included and the primary color you can pass the following config object.
 Also you can switch between Staging or Production environments.
-Partner id and name is **required** and is specific to your company account at pandas.
+**Partner id** and **name** is **required** and is specific to your company account at pandas. **storeLocationsURL** refers to the page displayed when selecting the dropOff option to view your store locations.
+
+**deviceImei** setting is optional. If an IMEI is known to the host app, it can be provided in order to skip the IMEI entry screen and get a price directly.
+
 
 ```
+
         val config = ConfigData(
             evaluations = arrayListOf(
                 ConfigEvaluationNames.DIGITIZER,
@@ -72,10 +76,18 @@ Partner id and name is **required** and is specific to your company account at p
                 ConfigEvaluationNames.MULTITOUCH
             ),
             colors = Colors(primary = "#cccccc"),
-            partner = Partner(id = "b12d1750-c81e-42a9-9091-dc0acb0f8e50", name = "pandas", country = "el-GR"),
-            environment = Environment.STAGING
+            partner = Partner(
+                id = "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad",
+                name = "pandas",
+                storeLocationsURL = "https://www.pandas.io/el-GR/map"
+            ),
+            environment = Environment.STAGING,
+            deviceImei = "350504685294602",
+            dropOffOptions = arrayListOf(
+                DropOffOptions.AT_STORE,
+                DropOffOptions.COURIER_AT_STORE
+            )
         )
-        Grading.setConfig(applicationContext, config) 
 ```
 Colors, Images, Fonts , and Strings can all be modified by inserting the corresponding .xml files in the values && drawable directories
  

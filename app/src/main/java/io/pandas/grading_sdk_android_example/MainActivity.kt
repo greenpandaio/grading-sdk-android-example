@@ -25,7 +25,11 @@ class MainActivity : AppCompatActivity() {
                 ConfigEvaluationNames.MULTITOUCH
             ),
             colors = Colors(primary = "#cccccc"),
-            partner = Partner(id = "b12d1750-c81e-42a9-9091-dc0acb0f8e50", name = "pandas", country = "el-GR"),
+            partner = Partner(
+                id = "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad",
+                name = "pandas",
+                storeLocationsURL = "https://www.pandas.io/el-GR/map"
+            ),
             environment = Environment.STAGING,
             deviceImei = "350504685294602",
             dropOffOptions = arrayListOf(
@@ -35,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         )
         Grading.setConfig(applicationContext, config)
 
-        findViewById<Button>(R.id.startbtn).setOnClickListener{ Grading.start(this)}
-        findViewById<Button>(R.id.viewImeiBtn).setOnClickListener{startActivity(Intent(Settings.ACTION_DEVICE_INFO_SETTINGS))}
+        findViewById<Button>(R.id.startbtn).setOnClickListener { Grading.start(this) }
+        findViewById<Button>(R.id.viewImeiBtn).setOnClickListener { startActivity(Intent(Settings.ACTION_DEVICE_INFO_SETTINGS)) }
     }
 }
