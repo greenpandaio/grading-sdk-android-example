@@ -210,3 +210,74 @@ Then in `AndroidManifest.xml` inside the `<application>` tag add:
    android:theme="@style/Theme.MaterialComponents">
 </activity>
 ```
+
+## Deep linking instructions
+
+1. Add the following intent inside `<activity>` tag from `AndroidManifest.xml` of your app.
+
+   
+```
+<intent-filter android:autoVerify="true">
+    <action android:name="android.intent.action.VIEW" />
+
+    <category android:name="android.intent.category.DEFAULT" />
+    <category android:name="android.intent.category.BROWSABLE" />
+
+    <!-- https://m.pandas.io -->
+    <data android:scheme="https" android:host="m.pandas.io" />
+</intent-filter>
+```
+
+2. Write a custom function that checks if the activity has started from a deep link, and handles the logic like this:
+
+```
+private fun initPandasGradingDeeplinkConfig(): Boolean {
+    val intent = intent
+    if (intent != null && intent.data != null) {
+        val deepLinkUri = intent.data
+
+        if(!deepLinkUri.toString().startsWith("https://m.pandas.io")) { return false }
+
+        deepLinkUri?.pathSegments?.let { uriSegments ->
+            if(uriSegments[0] == "grade") {
+                val partnerId = uriSegments[1]
+                val sessionId = deepLinkUri.getQueryParameter("sessionId")
+
+                Grading.setConfig(applicationContext, ConfigData(
+                    environment = Environment.STAGING,
+                    flow = Flows.STORE,
+                    sessionId = sessionId,
+                    partner = Partner(
+                        id = partnerId,
+                        storeLocationsURL = "https://github.com"
+                    ))
+                )
+            }
+        }
+        return true
+    }
+    return false
+}
+```
+
+### Observations:
+
+- The function returns a boolean to notice if the config has been set up on deep link initialization.
+
+- If you have a different config for the regular flow, you can follow this logic to achieve separation of concerns:
+
+```
+if(!initPandasGradingDeeplinkConfig()) {
+    setupPandasGrading() // <-- your custom function that initialize the grading config for non-deep link case
+}
+```
+ 
+- If you wish to run the activity immediately after the deep link initialization:
+
+```
+if(initPandasGradingDeeplinkConfig()) {
+    Grading.start(this)
+} else {
+    setupPandasGrading()
+}
+```
