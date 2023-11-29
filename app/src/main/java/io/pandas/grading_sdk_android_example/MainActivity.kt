@@ -1,11 +1,12 @@
 package io.pandas.grading_sdk_android_example
 
+import android.R.attr.value
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.CalendarContract
 import android.provider.Settings
 import android.widget.Button
+import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 import io.pandas.grading.Grading
 import io.pandas.grading.config.ConfigData
 import io.pandas.grading.config.ConfigEvaluationNames
@@ -14,6 +15,7 @@ import io.pandas.grading.config.data_access.DropOffOptions
 import io.pandas.grading.config.data_access.Environment
 import io.pandas.grading.config.data_access.Flows
 import io.pandas.grading.config.data_access.Partner
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,17 +26,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.startbtn).setOnClickListener { Grading.start(this) }
         findViewById<Button>(R.id.viewImeiBtn).setOnClickListener { startActivity(Intent(Settings.ACTION_DEVICE_INFO_SETTINGS)) }
+        findViewById<Button>(R.id.openWebViewBtn).setOnClickListener {
+            val myIntent = Intent(baseContext, WebAppActivity ::class.java)
+            val url = findViewById<EditText>(R.id.webviewUrl).text.toString()
+            myIntent.putExtra("url", url)
+            startActivity(myIntent)
+        }
     }
     private fun configureSdk(sessionId: String? = null ,flow: Flows = Flows.HOME ){
         val config = ConfigData(
             evaluations = arrayListOf(
                 ConfigEvaluationNames.DIGITIZER,
-                ConfigEvaluationNames.MULTITOUCH,
-                ConfigEvaluationNames.DEVICE_MOTION,
-                ConfigEvaluationNames.BACK_CAMERA,
-                ConfigEvaluationNames.FRONT_CAMERA,
-                ConfigEvaluationNames.FACE_ID,
-                ConfigEvaluationNames.SOUND_PERFORMANCE,
+
             ),
             colors = Colors(primary = "#222222"),
             partner = Partner(

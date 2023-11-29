@@ -10,8 +10,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="49dp"
         android:text="Pandas SDK"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/startbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,13 +22,11 @@
         android:id="@+id/startbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="73dp"
-        android:layout_marginEnd="158dp"
-        android:layout_marginBottom="234dp"
+        android:layout_marginBottom="33dp"
         android:text="Start SDK"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/viewImeiBtn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -34,14 +34,35 @@
         android:id="@+id/viewImeiBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="161dp"
+        android:layout_marginBottom="146dp"
         android:text="View IMEI"
+        app:layout_constraintBottom_toTopOf="@+id/openWebViewBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startbtn" />
+
+    <Button
+        android:id="@+id/openWebViewBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Open Web View"
+        app:layout_constraintBottom_toTopOf="@+id/webviewUrl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewImeiBtn" />
+
+    <EditText
+        android:id="@+id/webviewUrl"
+        android:layout_width="347dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="198dp"
+        android:inputType="textUri"
+        android:hint="Enter webview URL"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/startbtn" />
+        app:layout_constraintTop_toBottomOf="@+id/openWebViewBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
