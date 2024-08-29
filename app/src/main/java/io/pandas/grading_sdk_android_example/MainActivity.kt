@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         editText = findViewById(R.id.webviewUrl)
         sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
-        val lastEnteredUrl = sharedPreferences.getString("lastUrl", "https://webapp-stg.pandas.io/pandas?webview=true&locale=el-gr")
+        val lastEnteredUrl = sharedPreferences.getString("lastUrl", "https://webapp-stg.pandas.io/t-mobile-demo?webview=true")
         editText.setText(lastEnteredUrl)
         findViewById<Button>(R.id.startbtn).setOnClickListener { Grading.start(this) }
         findViewById<Button>(R.id.viewImeiBtn).setOnClickListener { startActivity(Intent(Settings.ACTION_DEVICE_INFO_SETTINGS)) }
@@ -61,27 +61,25 @@ class MainActivity : AppCompatActivity() {
                     ConfigEvaluationNames.BACK_CAMERA,
                     ConfigEvaluationNames.FACE_ID,
                     ),
-                colors = Colors(primary = "#222222"),
+                colors = Colors(primary = "#E20074"),
                 partner = Partner(
-                    id = "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad",
-                    name = "pandas",
-                    storeLocationsURL = "https://www.pandas.io/el-GR/map"
+                    id = "82562551-eb28-4801-a0ca-e3b5c79c5101",
+                    name = "t_mobile_demo",
+                    storeLocationsURL = "https://www.t-mobile.com/stores/wa"
                 ),
                 environment = Environment.STAGING,
                 flow = flow,
                 sessionId = sessionId,
                 deviceImei = null,
                 dropOffOptions = arrayListOf(
-                    DropOffOptions.AT_STORE,
-                    DropOffOptions.COURIER_AT_STORE
+                    DropOffOptions.AT_STORE
                 ),
-                contactUs = true,
-                tutorial = true,
-                faq = true,
-                manifesto = true,
-                emailSubmission = true,
-                ourStory = true,
-
+                contactUs = false,
+                tutorial = false,
+                faq = false,
+                manifesto = false,
+                emailSubmission = false,
+                ourStory = false,
                 )
             Grading.setConfig(applicationContext, config)
         }

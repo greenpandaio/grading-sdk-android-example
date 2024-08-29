@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pandas Grading</string>
+    <string name="app_name">T-Mobile Grading</string>
 
     <!-- Common -->
     <string name="pandas_grading_common_start">Start</string>
@@ -24,7 +24,7 @@
 
     <!-- Start Page -->
     <string name="pandas_grading_start_page_how_it_works">How it works</string>
-    <string name="pandas_grading_start_page_title"><font bgcolor="#BBFFCC" color="#1A1A1A">Trade in.</font>\nSave money.\nDo good.</string>
+    <string name="pandas_grading_start_page_title"></string>
     <string name="pandas_grading_start_page_impact">Impact</string>
     <string name="pandas_grading_start_page_more">More</string>
 
