@@ -10,6 +10,12 @@ import androidx.appcompat.app.AppCompatActivity
 
 class WebAppActivity : AppCompatActivity() {
     lateinit var myWebView : WebView
+    public companion object {
+        public const val CAMERA = 100
+        public const val MICROPHONE = 101
+        public const val SENSORS = 102
+        public const val LOCATION = 103
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_app)
