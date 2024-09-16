@@ -104,7 +104,39 @@ Enter the values for each language to the language corresponding folder by local
 ### Colors
 Copy the [pandas-sdk-colors.xml](/app/src/main/res/values/pandas-sdk-colors.xml) to values folder and edit the corresponding entries.
 
+You can also specify some colors in the ConfigData object.
+
+```
+val colors = Colors(
+                    primary = "#222222",
+                    background = "#427ef5", //optional - defaults to primary
+                    loader = "#427ef5" //optional - defaults to #B3B3B3
+                ),
+```
+
+You will then pass the colors object to the config object.
+
 ### Images
+Recommended way:
+Pass background image and digitizer image as a parameter in the config object. (these two cannot be overriden using the alternative way anymore as they do not exists. If they are not provided here, the primary/background colors will be used.)
+
+```
+val backgroundImage = BitmapFactory.decodeResource(resources, R.drawable.pandas_grading_splash_screen)
+val digitizerBackgroundImage = BitmapFactory.decodeResource(resources, R.drawable.pandas_grading_evaluation_digitizer_test_background)
+
+val config = ConfigData(
+            evaluations = arrayListOf(
+                ConfigEvaluationNames.DIGITIZER,
+                ConfigEvaluationNames.FRONT_CAMERA,
+                ConfigEvaluationNames.BACK_CAMERA
+            ),
+            colors = colors,
+            backgroundImage = backgroundImage,
+            digitizerBackgroundImage = digitizerBackgroundImage
+        )
+```
+
+Alternative way:
 You can replace any pandas grading image with your preferred image. Just place the image with the corresponding name in the drawable folder.
 
 `/app/src/main/res/drawable`
