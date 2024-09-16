@@ -1,8 +1,8 @@
 package io.pandas.grading_sdk_android_example
-import android.content.SharedPreferences
 import android.content.Context
-import android.R.attr.value
 import android.content.Intent
+import android.content.SharedPreferences
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.provider.Settings
 import android.widget.Button
@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
         private fun configureSdk(sessionId: String? = null, flow: Flows = Flows.HOME) {
+            val backgroundImage = BitmapFactory.decodeResource(resources, R.drawable.pandas_grading_splash_screen)
+            val digitizerBackgroundImage = BitmapFactory.decodeResource(resources, R.drawable.pandas_grading_evaluation_digitizer_test_background)
             val config = ConfigData(
                 evaluations = arrayListOf(
                     ConfigEvaluationNames.DIGITIZER,
@@ -60,29 +62,30 @@ class MainActivity : AppCompatActivity() {
                     ConfigEvaluationNames.FRONT_CAMERA,
                     ConfigEvaluationNames.BACK_CAMERA,
                     ConfigEvaluationNames.FACE_ID,
-                    ),
-                colors = Colors(primary = "#222222"),
+                ),
+                colors = Colors(
+                    primary = "#222222",
+//                    background = "#427ef5", //defaults to primary
+//                    loader = "#427ef5" //defaults to #B3B3B3
+                ),
                 partner = Partner(
                     id = "eb7c5e49-a4af-4426-93e4-4d1dd800b9ad",
-                    name = "pandas",
+                    name = "greenpandas",
+                    code = "green_panda",
                     storeLocationsURL = "https://www.pandas.io/el-GR/map"
                 ),
                 environment = Environment.STAGING,
                 flow = flow,
                 sessionId = sessionId,
-                deviceImei = null,
+                deviceImei = "352836110046381",
                 dropOffOptions = arrayListOf(
                     DropOffOptions.AT_STORE,
                     DropOffOptions.COURIER_AT_STORE
                 ),
-                contactUs = true,
-                tutorial = true,
-                faq = true,
-                manifesto = true,
                 emailSubmission = true,
-                ourStory = true,
-
-                )
+                backgroundImage = backgroundImage,
+                digitizerBackgroundImage = digitizerBackgroundImage
+            )
             Grading.setConfig(applicationContext, config)
         }
 
