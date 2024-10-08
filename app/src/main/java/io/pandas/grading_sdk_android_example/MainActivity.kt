@@ -59,11 +59,11 @@ class MainActivity : AppCompatActivity() {
                 evaluations = arrayListOf(
 //                    ConfigEvaluationNames.SELF_ASSESSMENT_DEVICE_TURNS_ON,
 //                    SelfAssessmentDecisionEvaluationNames.COSMETIC_FLOW_DECISION,
-//                    ConfigEvaluationNames.COSMETIC_MIRROR,
+                    ConfigEvaluationNames.COSMETIC_MIRROR,
                     ConfigEvaluationNames.SELF_ASSESSMENT_LCD_CONDITION,
                     ConfigEvaluationNames.DIGITIZER,
 //                    ConfigEvaluationNames.DEVICE_MOTION,
-                    ConfigEvaluationNames.MULTITOUCH,
+//                    ConfigEvaluationNames.MULTITOUCH,
                     ConfigEvaluationNames.SOUND_PERFORMANCE,
 //                    ConfigEvaluationNames.FRONT_CAMERA,
 //                    ConfigEvaluationNames.BACK_CAMERA,
@@ -92,6 +92,7 @@ class MainActivity : AppCompatActivity() {
                 backgroundImage = backgroundImage,
                 digitizerBackgroundImage = digitizerBackgroundImage
             )
+
             Grading.setConfig(applicationContext, config, eventsListener = object :
                 GradingEventsListener {
                 override fun onEvent(event: GradingEventsListener.Event) {

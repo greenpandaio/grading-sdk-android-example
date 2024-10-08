@@ -32,7 +32,7 @@ dependencyResolutionManagement {
 ```
 
 ### Add pandas-grading-sdk depedency.
-In your app level `build.gradle` add `'io.pandas.grading:pandas-grading-sdk:0.1.15'` as a depedency
+In your app level `build.gradle` add `'io.pandas.grading:pandas-grading-sdk:0.4.1'` as a depedency
 
 ## Using the SDK
 
@@ -48,6 +48,16 @@ Config once:
 ```apache
 Grading.setConfig(applicationContext, ConfigData())
 ```
+Register a results reading callback if you want to read the results on the main app:
+
+            Grading.setConfig(applicationContext, config, eventsListener = object :
+                GradingEventsListener {
+                override fun onEvent(event: GradingEventsListener.Event) {
+                    // TODO handle events
+                    Toast.makeText(applicationContext, "TODO handle event: $event", Toast.LENGTH_SHORT).show()
+                }
+            })
+
 
 Then start a new grading activity
 
