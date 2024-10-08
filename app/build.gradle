@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'io.pandas.grading_sdk_android_example'
-    compileSdk 33
-
+    compileSdk 34
+    dataBinding {enabled = true}
     defaultConfig {
         applicationId "io.pandas.grading_sdk_android_example"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -44,5 +44,5 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    implementation 'io.pandas.grading:pandas-grading-sdk:0.2.0'
+    implementation 'io.pandas.grading:pandas-grading-sdk:0.4.1'
 }
