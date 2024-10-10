@@ -28,10 +28,11 @@
     </style>
 
     <style name="ExtendedFloatingActionButton.Contained.Regular">
-        <item name="android:height">48dp</item>
+        <item name="android:layout_height">48dp</item>
     </style>
 
     <style name="ExtendedFloatingActionButton.Contained.Regular.TextBold">
+        <item name="android:padding">16dp</item>
         <item name="android:fontFamily">@font/pandas_grading_secondary_bold</item>
     </style>
 
@@ -56,13 +57,16 @@
         <item name="android:fontFamily">@font/pandas_grading_secondary_bold</item>
     </style>
 
-
-
     <!-- Text -->
     <style name="TextAction">
         <item name="android:fontFamily">@font/pandas_grading_secondary_bold</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/pandas_grey</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayExtended" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
     </style>
 </resources>

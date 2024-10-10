@@ -16,6 +16,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://jitpack.io" }
         maven {
             url = uri("https://maven.pkg.github.com/greenpandaio/grading-sdk-android")
             credentials {
@@ -46,11 +47,11 @@ import io.pandas.grading.config.ConfigData
 Config once:
 
 ```apache
-Grading.setConfig(applicationContext, ConfigData())
+Grading.setConfig(config = ConfigData())
 ```
 Register a results reading callback if you want to read the results on the main app:
 
-            Grading.setConfig(applicationContext, config, eventsListener = object :
+            Grading.setConfig(config = config, eventsListener = object :
                 GradingEventsListener {
                 override fun onEvent(event: GradingEventsListener.Event) {
                     // TODO handle events
@@ -59,10 +60,21 @@ Register a results reading callback if you want to read the results on the main 
             })
 
 
-Then start a new grading activity
+Then start a new grading activity specifying the context and the flow type. The flow type can be one of the following:
+- `Flow.Type.ELIGIBILITY` - for the eligibility flow
+- `Flow.Type.ELIGIBILITY_PEER` - for the eligibility peer flow
+- `Flow.Type.HOME` - for the home flow'
+  
+**deviceImei** setting is optional. If an IMEI is known to the host app, it can be provided in order to skip the IMEI entry screen and get a price directly.
+**sessionId** is optional and is used for deep linking or to resume a previous session. It is used to pass a session id to the grading flow.
 
 ```apache
-Grading.start(this)
+Grading.start(
+                context = this,
+                flowType = Flow.Type.ELIGIBILITY_PEER,
+                imei = "352836210046381",
+                sessionId = null
+            )
 ```
 
 ## Configuring the SDK
@@ -73,9 +85,7 @@ Basic configuration is done by passing the `ConfigData` object to the `Grading.s
 For example to customise the assessment tests that will be included and the primary color you can pass the following config object.
 Also you can switch between Staging or Production environments.
 **Partner id** and **name** is **required** and is specific to your company account at pandas. **storeLocationsURL** refers to the page displayed when selecting the dropOff option to view your store locations.
-
-**deviceImei** setting is optional. If an IMEI is known to the host app, it can be provided in order to skip the IMEI entry screen and get a price directly.
-
+**evaluations**  is used only for the Home flow, the other Eligibility flows have a fixed set of evaluations. 
 
 ```
 
@@ -203,7 +213,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Grading.setConfig(applicationContext, ConfigData(
+        Grading.setConfig(config = ConfigData(
             evaluations = listOf(
                 ConfigEvaluationNames.DIGITIZER,
                 ConfigEvaluationNames.IMEI),
@@ -237,7 +247,12 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GradingSDKButton(context: Context) {
     Button(onClick = {
-        Grading.start(context)
+        Grading.start(
+                context = context,
+                flowType = Flow.Type.ELIGIBILITY_PEER,
+                imei = null,
+                sessionId = null
+            )
     }
     ) {
         Text("Click Me")
@@ -285,7 +300,7 @@ private fun initPandasGradingDeeplinkConfig(): Boolean {
                 val partnerId = uriSegments[1]
                 val sessionId = deepLinkUri.getQueryParameter("sessionId")
 
-                Grading.setConfig(applicationContext, ConfigData(
+                Grading.setConfig(config = ConfigData(
                     environment = Environment.STAGING,
                     flow = Flows.STORE,
                     sessionId = sessionId,
@@ -318,7 +333,12 @@ if(!initPandasGradingDeeplinkConfig()) {
 
 ```
 if(initPandasGradingDeeplinkConfig()) {
-    Grading.start(this)
+    Grading.start(
+                context = this,
+                flowType = Flow.Type.ELIGIBILITY_PEER,
+                imei = null,
+                sessionId = null
+            )
 } else {
     setupPandasGrading()
 }

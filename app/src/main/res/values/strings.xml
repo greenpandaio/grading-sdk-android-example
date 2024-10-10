@@ -1,0 +1,541 @@
+<resources>
+    <string name="app_name">Pandas Grading</string>
+
+    <!-- Common -->
+    <string name="pandas_grading_common_start">Start</string>
+    <string name="pandas_grading_common_resume_evaluation"> No, resume evaluation </string>
+    <string name="pandas_grading_common_exit_evaluation"> Exit evaluation </string>
+    <string name="pandas_grading_common_exit_evaluation_modal_emoji">🧐</string>
+    <string name="pandas_grading_common_exit_evaluation_modal_title"> Exit evaluation? </string>
+    <string name="pandas_grading_common_evaluation_warning"> You need to complete evaluation to get a trade in offer for your device. However, If you wish to continue evaluation later, your progress will be saved. </string>
+    <string name="pandas_grading_common_offer_warning"> You cannot continue as your device is not eligible if it skips this test. </string>
+    <string name="pandas_grading_common_cancel"> Cancel </string>
+    <string name="pandas_grading_common_continue"> Continue </string>
+    <string name="pandas_grading_common_lets_evaluate"> Let\'s evaluate your </string>
+    <string name="pandas_grading_common_start_now"> Start now </string>
+    <string name="pandas_grading_common_allow_access"> Allow access </string>
+    <string name="pandas_grading_common_skip_step"> Got it, skip to the next step </string>
+    <string name="pandas_grading_common_try_again"> Try again </string>
+    <string name="pandas_grading_common_works_ok"> Works OK </string>
+    <string name="pandas_grading_common_evaluation_failed"> Evaluation failed </string>
+    <string name="pandas_grading_common_evaluation_skipped"> Evaluation skipped </string>
+    <string name="pandas_grading_common_take_photo_button">Take photo</string>
+    <string name="pandas_grading_common_yes">Yes</string>
+    <string name="pandas_grading_common_no">No</string>
+    <string name="pandas_grading_common_generic_error">Something went wrong. Try again.</string>
+
+
+    <!-- Start Page -->
+    <string name="pandas_grading_start_page_title"><font bgcolor="#BBFFCC" color="#1A1A1A">Trade in.</font>\nSave money.\nDo good.</string>
+
+    <!-- Walkthrough Page -->
+    <string name="pandas_grading_walkthrough_page_title">How it works</string>
+    <!-- Slide 1 -->
+    <!-- Slide 2 -->
+    <!-- Slide 3 -->
+
+    <!-- Impact Page -->
+
+    <!-- More Page -->
+
+    <!-- Privacy Policy Page -->
+    <string name="pandas_grading_privacy_policy_page_title">Privacy Policy</string>
+    <string name="pandas_grading_privacy_policy_page_privacy_policy_1"><![CDATA[<p>\'GREEN PANDA SINGLE-MEMBER PRIVATE COMPANY\' respects and protects your privacy and your personal data. This Privacy Policy applies every time you use the services offered to you through the \'WebApp\' application in order (i) to evaluate your electronic device, (ii) to provide of a financial offer on a case-by-case basis - if you decide to make a financial transaction, or (iii) to final issue a coupon that will incorporate the amount of the financial offer corresponding to the value of the electronic device as obtained during the above mentioned evaluation, which can be used exclusively for the purchase of products from the store of our partner enterprises that use the \'WebApp\' on behalf of our company and in accordance with the terms and conditions incorporated therein, or (iv) to pay you the agreed price corresponding to the value of your electronic device as obtained during the above mentioned evaluation, if you finally make it available to our company (\'financial transaction\'). The protection of your Personal Data is governed by the legal framework <strong>of the General Data Protection Regulation 2016/679 of the EU (hereinafter \'GDPR\'), as well as by the Greek law no. 4624/2019</strong> \'Personal Data Protection Authority, measures for the implementation of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of data" as currently in force.<br /><br />For the purposes of the applicable legislation, Controller shall mean the company under the name <strong>\'GREEN PANDA SINGLE-MEMBER PRIVATE COMPANY\'</strong> having its registered office at 20 Charitos Street, P.C. 10675, Athens with GCR No 150229702000 <strong>(hereinafter referred to as \'our company\', \'we\', \'our\', \'ours\')</strong> and our purpose is to provide you with the most information possible regarding any form of processing of your personal data (e.g. collection, storage, etc.) as well as to inform you of your rights.<br /><br /></p><h4><u>1. CATEGORIES OF DATA COLLECTED BY US</u></h4><br/>A) <u>Your Identification Data:</u> Full Name, phone number, email address. This information is collected directly from you at the pre-contractual and contractual stage, i.e. the moment you accept the financial offer as resulted from the pricing of your electronic device using the "Trade-In App".<br/><br/>B) <u>Information about your device:</u><br/>a) The unique identifier of your mobile device ("IMEI number"). The IMEI number is collected during the evaluation phase of your electronic device in order to subsequently form a corresponding financial offer for selling it and, at the stage of issuance of the coupon, if you choose to make a financial transaction, to make it possible to match the financial offer with the electronic device sold in order to be credited to you, through the issuance and delivery of the coupon, with the corresponding amount for purchases of equal value in the stores of our partner enterprises. Also the IMEI number is used by our company in order to confirm whether the coupon you have received with the financial offer for the value of your device was redeemed or expired or still remains active for redemption. To the extent that the above IMEI number or similar identifiers or similar information derived therefrom may be interpreted as, or become, personal data in accordance with the relevant applicable law, we undertake to treat such information as personal data in accordance with the terms of this Privacy Policy.<br/>b) Information about the functionality of some other components of your device which are biometrics, camera front/back, audio (microphone/speaker), digitizer. To collect this information, the "WebApp" will request you to provide us with the required access on the camera (capture front/back side photos from your device), biometrics, audio functionalities of your device. The information that will be collected will be stored and used solely for the purpose of evaluating your device\'s condition.<br/><br/>C) <u>Your financial data:</u> If you make a financial transaction and only at this stage we collect your International Bank Account Number (IBAN) and/or your bank debit or credit card number.<br/><br/><h4><u>2. OUR PURPOSES FOR COLLECTING YOUR DATA</u></h4><br/>-To take measures at your request at the pre-contractual stage, i.e. for the issuance of the relevant coupon that will incorporate the amount of the financial offer accepted by you and which coupon may be used in accordance with the terms and conditions incorporated therein. The coupon will also be sent in electronic form to the email address (email) indicated by you.<br/><br/>- For the final and smooth preparation of the contract, namely: (a) either by redeeming your coupon by purchasing products from the stores of our partner enterprises and selling your electronic device to us through our partner enterprises acting as our agents, (b) or by paying you the agreed price (value of your electronic device) and corresponding sale of your electronic device to us or through our partner enterprises acting as our agents.<br/><br/>- To safeguard your legitimate interests and the protection of transactions in general, i.e. for the purpose of identifying you during the performance of the contract. Your adequate identification serves your protection against fraudulent behavior by third parties in case of loss of your electronic device or coupon (double authentication: device owner but also coupon owner).<br/><br/>- To comply with our legal obligations, if we receive a respective legal request for the transmission of such personal data to the competent police or prosecutorial/judicial or supervisory authorities and for the purpose of our compliance with the applicable legislation or for our compliance with the commercial or tax legislation, etc.<br/><br/>- To comply with our legitimate interests in accordance with Article 6 para. 1 (f) of the GDPR and provided that such collection does not constitute a breach of your individual rights and freedoms (i.e. processing is preceded by a relative weighting of interests). Specifically, the said data is collected in particular and primarily for the purpose of protecting transactions and preventing or prosecuting criminal or other offences (e.g. fraud, embezzlement, acceptance and placing on market the proceeds of crime, etc.).<br/><br/>- With your consent, we use your data to send you information (newsletter), for advertising purposes, direct marketing. We would like to inform you that by accepting this Privacy Policy you give us your explicit consent to use, collect and store your data for the above mentioned purpose (sending information material, advertising, direct marketing). In any case, you have the right to withdraw your consent by email at contact@pandas.io or simply by clicking "unsubscribe" in the corresponding emails you will receive.<br/><br/><h4><u>3. TRANSMISSION OF YOUR PERSONAL DATA TO THIRD PARTIES</u></h4><br/>Our company may transmit your data strictly to our necessary personnel, who are bound by a relevant obligation of confidentiality as well as to our partner companies or third party service providers, who process your data as Processors on behalf and in accordance with our orders.<br/><br/><strong>Our staff or our affiliates</strong> process your data solely for the purpose of the initial evaluation of your device and its relevant control, the provision to you of the proposed financial offer, the issuance of a relevant coupon if you accept the relevant offer, the execution of a financial transaction, and in general for the purpose of the successful implementation of our contract. Our partner enterprises are always selected on the basis of, among other things, the high degree of protection they provide regarding the security of personal data.<br/><br/><strong>Third party service providers</strong> are companies that have been charged with the task of managing, maintaining and developing the technical features of the software incorporated in the WebApp and our servers in general, as well as with the task of hosting, managing and maintaining your data (hosting platforms/servers). Companies providing such services have been carefully selected and have experienced, competent and reliable staff and operate on the basis of all relevant requirements, specifications and rules set by the existing legislative framework.<br/><br/>Other recipients of your data may be the Financial Institutions or other institutions for executing payment orders through which our financial transaction is implemented.<br/><br/>The Processors have agreed and contractually committed with our Company to observe a duty of confidentiality, not to share your data with third parties without our Company\'s permission, to process your data exclusively for the agreed processing purposes, to take appropriate technical and organizational security measures and in general to comply with the legal provisions on the protection of personal data in order to maintain a high level of their security.<br/><br/>Please contact us by sending an email to contact@pandas.io, if you want to receive a complete list of partner enterprises.<br/><br/>We reserve the right to share your personal data in cases where such disclosure is required by law or imposed by other competent supervisory, monitoring, independent, judicial, public and/or other authorities or is required for purposes prescribed by law, for which the individual\'s consent is not required (e.g. contribution to the prevention or investigation of fraud, to protect our legitimate interests and/or our property, etc.).<br/><br/>The processing of your personal data takes place within Greece and the European Union (EU). In case we cooperate with companies outside the EU, we will protect your data in the way described in this Privacy Policy and your data will only be processed upon instruction given by us and only in case there is an adequacy decision by the European Commission or if the appropriate safeguards (binding corporate rules, standard data protection clauses, approved code of conduct, etc.) are agreed which ensure a high level of security in relation to the processing of your personal data.<br/><br/>There is a possibility that our company processes personal data of third parties, which are transmitted directly to us by the users of the \'WebApp\', such as when the customer presenting the electronic device for its pricing and sale is different from the owner of the electronic device.<br/><br/>Under these circumstances, it is the responsibility of the customer/user who appears as the owner of the electronic device during the use of the trade-in app in general to have received the prior express/written consent by the owner before disclosing his/her personal data to our company (full name, account details, etc.) and to inform him/her about this Privacy Policy, because the customer/user will be solely responsible for the transmission of the information and personal data of a third party who has not given his/her consent or in case such data is used in an illegal or inappropriate manner. Our company expressly disclaims any relevant liability that may arise from such unlawful or unfair use. In any case, any third party whose personal data is processed by our company under such circumstances has the same rights as those described in Section 6 of this Privacy Policy under the heading \'Your Rights\'.<br/><br/><h4><u>4. RETENTION PERIOD OF DATA KEPT BY US</u></h4><br/>The retention period that we keep your personal data depends on the time required in order to provide you with the services you have selected (e.g. payment of money for the sale of your electronic device) and any relevant legitimate business purpose. Generally, when your personal data is no longer needed for legitimate business purposes or reasons, your personal data will be securely deleted and destroyed and/or can be anonymised in a shorter time to make them unidentifiable with your person.<br/><br/>In particular, when you choose to make a financial transaction and a final sale of your electronic device, we store your personal data for five (5) years from the execution of the contract between us.<br/><br/>Especially for the personal data we collect based on your consent, these are kept for as long as the relevant consent has been given or until its revocation if this occurs earlier.<br/><br/>Otherwise, and only exceptionally, we may retain your personal data for a longer period of time even after the termination of the relationship between us and the expiration of the deadlines for the exercise of the relevant rights that may arise therefrom (e.g. expiration of the coupon containing the financial offer, withdrawal from the contract, etc.), in order to comply with our legal interests as defined above (e.g. crime prevention or suppression) or with another legal obligation upon a relevant request from competent Public Authorities.<br/><br/><h4><u>5. HOW WE PROTECT YOUR DATA/SECURITY MEASURES</u></h4><br/>We introduce Appropriate Technical and Organizational Measures (\'ATOM\') of Security that are sufficient to minimize the risks of destruction, loss or alteration of data - even accidentally -, to prevent unauthorized access and dissemination of your personal information data, as well as to prevent illegal processing methods and types of processing that are not in accordance with the collection purposes stated in this Privacy Policy and, finally, that ensure the confidentiality, integrity and availability of your data and aim to minimize their processing.<br/><br/>However, we cannot guarantee that the ATOMs introduced in relation to the collection of your data and their possible transmission to third parties, limit or exclude any risk of unauthorized access or dissemination of data during the evaluation stage of your device, as the protection of your data depends on you as well.<br/><br/><h4><u>6. YOUR RIGHTS</u></h4><br/>You have the right, at any time, to access your personal data, details and information that yourself have disclosed to our business (right of access).<br/><br/>You have the right to request the updating, correction and modification of your personal data (right of correction).<br/><br/>You have the right to request the deletion and permanent elimination of your personal data in whole or in part (right of deletion) (if e.g. the data are no longer necessary for the purposes for which they were collected, etc.).<br/><br/>You have the right to request the conversion into an anonymous form or blocking of your personal data used, including data that is considered unnecessary for the purposes for which the data were collected or subsequently processed (right to restrict processing).<br/><br/>You have the right to request that your personal data be transferred to another data controller in a secure manner (right to portability).<br/><br/>In any case, you have the right to object in whole or in part (right to object) to any further processing other than those expressly mentioned above.<br/><br/>You may freely exercise your rights at any time by sending a written request to our company at dpo@greenpanda.io and/or by sending a registered letter to 20 Charitos st., P.C. 10675, Athens, and we will respond immediately to your request.<br/><br/>We strive to respond to all legitimate customer/user requests within one month from the date of submission thereof. Occasionally it may take longer than a month, taking into account the complexity of your request and the number of requests. In this case, we will notify you and inform you accordingly. However, in the event that your request is manifestly unfounded, excessive or repetitive, we can either impose a reasonable charge, which we will inform you of, or refuse to respond to your request.<br/><br/>If you believe that your rights are being infringed in any way, you can also submit a complaint to the competent Supervisory Authority:<br/><br/>Hellenic Data Protection Authority<br/><br/>Postal Address: 1–3 Kifissias Avenue, P.C. 115 23, Athens<br/><br/>Call Center: +30–210 6475600<br/><br/>Fax: +30–210 6475628<br/><br/>E-mail: contact@dpa.gr<br/><br/><h4><u>7. AMENDMENTS TO THE PRIVACY POLICY</u></h4><br/>Our company may amend or update this Privacy Policy, in part or in full, even due to an update of the legislation governing the protection of your personal data, and protect your rights. Any such amendments and updates to the Privacy Policy will be posted on the "Trade-In App" and communicated to you in this way so that they will be binding as soon as they are published there, and take effect from the moment of your next visit. We therefore invite you to visit this section every time you use our services and this application to read the latest and updated version of our Privacy Policy.<br/><br/><h4><u>8. CONTACT US</u></h4><br/>For any questions, clarifications or complaints in relation to this Privacy Policy, please contact:<br/><br/>Data Controller:<br/><br/>GREEN PANDA SINGLE-MEMBER PRIVATE COMPANY<br/><br/>20 Charitos Street, P.C. 10675, Athens<br/><br/>General Commercial Registry Number 150229702000<br/><br/>contact@pandas.io<br/><br/>Data Protection Officer:<br/><br/>dpo@greenpanda.io]]></string>
+    <string name="pandas_grading_privacy_policy_page_privacy_policy_2"> </string>
+
+    <!-- Terms of Services Page -->
+    <string name="pandas_grading_terms_of_services_page_title">Terms of Services</string>
+    <string name="pandas_grading_terms_of_services_page_terms_of_services"><![CDATA[<p><strong>1.General provisions</strong><br /><br />The company "GREEN PANDA SINGLE-MEMBER P.C." (hereinafter referred to as "our company", "we", "our", "GREEN PANDA", is the sole owner and administrator of this website (hereinafter referred to as the "website").<br /><br />The use of this website www.pandas.io by the user/guest depends on prior understanding, careful reading and approval of these terms and conditions that apply to the entire content, pages and graphics, images, and all files on the website. If you disagree with these terms, you should not use the services and content of our website. These terms may be amended or modified from time to time, so please review their content before using our website. The use of the www.pandas.io website after the modification of the content of certain pages means that the user accepts these terms and conditions unconditionally. If you do not agree to these terms and conditions, please do not use the services on our website.<br /><br />The terms and conditions of use of our website constitute the entire and complete agreement between our company and the website user/guest and only bind these two parties. Any amendments to these terms and conditions shall be the subject of the above-mentioned agreement once they are written and incorporated in this text and shall be effective from the next visit of the user/guest thereafter. Our company may modify these terms and conditions without prior notice or permission from the user/guest.<br /><br />By accepting these terms of use, you declare that you are an adult (over 18 years of age) or at least over fifteen (15) years of age in order to be entitled to use the services offered through our website. In any other case, you cannot access our website and use our services and, respectively, our company is in no way responsible for such use.<br /><br />If a minor under the age of 15 finally makes use of the services provided through our website, falsely stating -by accepting these terms- that they are over 15 years old, the persons with parental responsibility of the minor shall be personally and unconditionally bound by these terms and conditions and shall bear the full responsibility arising from such use, including any financial obligations arising therefrom.<br /><br />The www.pandas.io website guest/user is required to use it in accordance with the law and these terms and conditions. This website is for personal use only and cannot therefore be modified, reproduced, copied, distributed, sold, resold or used for commercial or non-commercial purposes. In the event of such action, our company is entitled to prohibit you from accessing the website temporarily or permanently and to claim any other damage caused to the website.<br /><br /><strong>2. Intellectual property rights</strong><br /><br />The entire content of our website, including but not limited to, texts, graphics, outlines, videos, projects, images, dialogs, music, recommended services, terms and conditions of use, and any other material posted on this website in any form, including menus, web pages, tools, fonts, web design programs, diagrams, methods, procedures, functions, and software that are part of this website, and any modification related to this particular content, are intellectual property rights of our company and/or their relevant beneficiaries and are governed and protected by Greek law (Law 2121/1993, as amended by Laws 4212/2013 and Law 4481/2017 as in force), European Union law and all relevant international conventions. In addition, the logos, trademarks, domain names and features on our website belong to this website and/or to all relevant persons who hold the relevant intellectual property rights. No reproduction, modification or alteration, in whole or in part, in any way whatsoever, of www.pandas.io and its content, shall be permitted without the written consent of GREEN PANDA.<br /><br />If any provision of the above terms is contrary to the general provisions of the Copyright Protection Act or is annulled, this term shall immediately cease to be valid and shall be deleted from these terms and conditions without affecting the other terms herein.<br /><br />In order to use and exploit any materials posted on our website that may be owned by third parties, the user/visitor must seek written permission from the persons holding the copyrights and trademarks in order to obtain their respective rights of use and exploitation.<br /><br /><strong>3. Trademarks and domain names</strong><br /><br />GREEN PANDA SINGLE-MEMBER P.C. is the sole owner of the logos and trademarks registered with the European Intellectual Property Office (EUIPO) in a specific graphic display including the words GREEN PANDA and domain name greenpanda.io or pandas.io. All other features used to distinguish products or services advertised or promoted on www.pandas.io and published on the website are registered trademarks of their respective owners and are used on www.pandas.io only for the purpose of distinguishing, describing and advertising the products or services advertised or promoted on www.pandas.io.<br /><br />GREEN PANDA and all other holders of registered trademarks are entitled to exclusive use of the trademarks belonging to them respectively.<br /><br />You are not authorized, without the consent of our company and any other owner of the registered trademarks posted on the website, to use these trademarks to distinguish products or services.<br /><br />Any illegal or unauthorized use of such trademarks is prohibited and will result in the imposition of all legal sanctions. Such trademarks and any other trademark posted on www.pandas.io shall under no circumstances be used to confer an illegal benefit on the distinctive features or reputation of such trademarks or in such a way as to impair the reputation of the trademark itself or its owner and in general, they must only be used for the purposes specified in www.pandas.io (personal and non-commercial use only).<br /><br /><strong>4. Links to other third-party websites/Ads</strong><br /><br />The www.pandas.io website contains links to other websites that have nothing to do with www.pandas.io or GREEN PANDA. GREEN PANDA does not control or monitor such third party websites or their content. Our company is not responsible for the content of these websites and/or for the rules set by them regarding your privacy and the processing of your personal data during your visit to these websites.<br /><br />In particular, our company is not responsible for: (i) the availability or accuracy of such websites or sources; (ii) the content, products or services that exist or are available from such websites or sources. Existing links to such websites or sources do not imply any support from our company to such websites or sources or the content, products or services available from such websites or sources. You acknowledge that you are solely responsible for and assume all risks arising from the use of such websites or sources.<br /><br />Please pay attention when accessing these web pages through the links provided at www.pandas.io and carefully read <strong>their terms of use</strong> and <strong>privacy policies.</strong> These General Terms of Use and our Privacy Policy do not apply to third party websites.<br /><br />The www.pandas.io website provides links to other websites exclusively to help its users search and navigate the Internet and allow connections to other websites on the Internet.<br /><br />When our company provides links to other websites, it does not mean that it also recommends that its users have access to those websites and does not provide guarantees on their content or on the services and proposed products provided, promoted, advertised and/or sold by these websites on the Internet to users.<br /><br />In addition, our website may contain advertisements from our company or third-party businesses and may also display other promotional material, with advertising purpose and nature.<br /><br />In the case of advertisements from third parties, our company does not control the content of such advertisements and is therefore not liable to its users/visitors for the content of such advertisements in respect of any unlawful acts or omissions, inaccuracies or breaches of applicable law in relation to the content of such advertisements. This responsibility shall be borne solely by advertisers, sponsors and/or authors of the advertising material displayed.<br /><br /><strong>5. Disclaimer regarding the content of the website</strong><br /><br />Our company makes every effort to prevent the publication on our website of content that describes or represents situations that may be determined by the individual website user/guest that violate their beliefs and rights. In any event, our company does not guarantee that the contents of the website are appropriate or legal in countries other than Greece.<br /><br />However, if these contents are considered illegal in some of these countries, please do not access our website and if you choose to stay on our website, we inform you that the use of the services provided from www.pandas.io will be under your sole and personal responsibility.<br /><br />However, our company cannot be held responsible for the accuracy and completeness of the content posted on our website.<br /><br />In addition, our company cannot guarantee that the website will operate continuously, without interruptions and errors due to the Internet connection. If any problem arises during the use of the website, please contact us by writing at the following email address: contact@pandas.io<br /><br />Our representative will be at your disposal to help you restore your access to the website, if possible. At the same time, please contact your Internet service provider or check that each device intended to connect to the Internet has been activated correctly, including the Internet browser.<br /><br />Although our company will do its utmost to ensure smooth access to its website, the internet may not allow www.pandas.io to operate without interruptions or discontinuities due to website updates.<br /><br />Our company has put in place appropriate technical and organizational security measures to protect the services on website www.pandas.io the integrity of traffic data and electronic communications in order to prevent unauthorized use or access to data, and to prevent risks of dissemination, destruction and loss of data and confidential/non-confidential information regarding the website users/guests and to prevent unauthorized or illegal access to these data and information. However, GREEN PANDA expressly states that it does not take responsibility in cases of cyber-attacks or other malicious attacks or if it detects other illegal activity it is entitled to take -at its sole discretion any controlled access protective measures or even to suspend access to any of its websites.<br /><br />YOU AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE WILL NOT BE LIABLE OR OBLIGED (WHETHER CONTRACTUALLY, OR TORTIOUSLY (INCLUDING NEGLIGENCE) OR OTHERWISE), UNDER ANY CIRCUMSTANCES, FOR ANY (A) TERMINATION OF ACTIVITY, (B) DELAY OR TERMINATION OF ACCESS TO THE WEBSITE, © FAILURE TO DELIVER, WRONGFUL DELIVERY, CORRUPTION, DESTRUCTION OR OTHER MODIFICATION OF DATA, (D) LOSS OR DAMAGE OF ANY KIND ARISING AS A RESULT OF THE PRESENCE OF LINKS OUTSIDE THE WEBSITE OR AS A RESULT OF THIRD PARTY ACTIONS, (E) COMPUTER VIRUSES, SYSTEM FAILURES OR DYSFUNCTIONS LIKELY TO OCCUR IN CONJUNCTION WITH THE WEBSITE USE, INCLUDING THE DURATION OF A HYPERLINK TO OR FROM THIRD PARTY WEBSITES, (F) ANY INACCURACIES OR OMISSIONS IN CONTENT, OR (G) EVENTS OUT OF OUR REASONABLE CONTROL [ACCIDENTAL OR FORCE MAJEURE].<br /><br />IN ADDITION, TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGE OR DAMAGE OF ANY KIND (SUCH AS LOST PROFITS) RELATING TO THE WEBSITE OR ITS USE BY YOU, CAUSED EITHER BY CONTRACT OR BY TORT (INCLUDING NEGLIGENCE).<br /><br /><strong>6. User/guest liability</strong><br /><br />This chapter of the terms of use obliges you to protect us and compensate us from any illegal activities caused by you. Please read carefully.<br /><br />You agree to indemnify our Company and its associates, its successors, any subsidiaries and affiliates, its employees and directors, and any successors thereof, and all its agents in general, to the maximum extent permitted by applicable law, for any loss, damage or costs (including reasonable lawyers\' fees and expenses) arising out of or related to (i) your access, use or misuse of any of the services provided in www.pandas.io, (ii) breach or alleged breach of these terms and conditions in whole, or (iii) any breach by you of any applicable laws or other rights, including but not limited to the breach or illegal possession or exploitation of any third party right or GREEN PANDA right, including without limitation of any intellectual property right, trademark, patent, trade secret or property right, privacy or other proprietary rights.<br /><br /><strong>7. Privacy Policy</strong><br /><br />Please read carefully our privacy policy at www.pandas.io/privacy-policy which complements these general terms of use and provides you with details regarding the collection and processing of your personal data during the website visit, your rights, the information of the controller and how you can communicate with us.<br /><br /><strong>8. Applicable law- Jurisdiction</strong><br /><br />These General Terms of Use, as well as the Privacy Policy of our website, are governed by Greek law. The proper use of your personal data is regulated by Greek and EU law, in particular by Regulation (EU) 2016/679 governing the protection of personal data and the way in which personal data are treated, as well as the corresponding Greek Law 4624/2019 adopted pursuant to the above Regulation. In the event of a dispute among the users/guests and our company, Greek law applies and the courts of Athens are solely competent to resolve the dispute.<br /><br /><strong>9. Contact us</strong><br /><br />For any clarification or additional information about www.pandas.io, on how GREEN PANDA processes the personal data of users or relates to the services on our website, you may contact the email: contact@pandas.io or the phone number 00302111982521 (work hours).</p>]]></string>
+
+
+    <!-- Device Ownership Page -->
+
+    <!-- FAQ Page -->
+
+    <!-- Questions -->
+
+    <!-- Contact Us Page -->
+
+    <!-- Thank You Page -->
+
+    <!-- Our Story Page -->
+
+    <!-- Our Manifesto Page -->
+
+
+    <!-- What you need Page -->
+    <string name="pandas_grading_what_you_need_page_subtitle"> Before we start. </string>
+    <string name="pandas_grading_what_you_need_page_title"> What you will need to evaluate your </string>
+    <!-- Item 1 -->
+    <string name="pandas_grading_what_you_need_page_list_item_1_title"> Set up your FaceID or TouchID </string>
+    <string name="pandas_grading_what_you_need_page_list_item_1_description"> </string>
+    <!-- Item 2 -->
+    <string name="pandas_grading_what_you_need_page_list_item_2_title"> Have access to a mirror </string>
+    <string name="pandas_grading_what_you_need_page_list_item_2_description"> We know this may sound a bit strange at the moment :) </string>
+    <!-- Item 3 -->
+    <string name="pandas_grading_what_you_need_page_list_item_3_title"> Stay in a quiet place for 5\' </string>
+    <string name="pandas_grading_what_you_need_page_list_item_3_description"> </string>
+    <!-- Item 4 -->
+    <string name="pandas_grading_what_you_need_page_list_item_4_title"> Disconnect Bluetooth devices </string>
+    <string name="pandas_grading_what_you_need_page_list_item_4_description"> </string>
+
+    <string name="pandas_grading_what_you_need_page_lets_start"> Let\'s start </string>
+
+
+    <!-- Digitizer Page -->
+    <string name="pandas_grading_digitizer_page_skip_modal_title"> Are you sure your touch screen doesn\'t work? </string>
+    <string name="pandas_grading_digitizer_page_evaluate_title"> Digitizer </string>
+    <string name="pandas_grading_digitizer_page_evaluate_description"> Check the touch functionality of your screen. </string>
+    <string name="pandas_grading_digitizer_page_check_digitizer"> Check digitizer </string>
+    <string name="pandas_grading_digitizer_page_footer_message"> My touch screen is not fully functional </string>
+
+    <!-- Digitizer Test Page -->
+    <string name="pandas_grading_test_digitizer_page_instructions_title">Time to play!</string>
+    <string name="pandas_grading_test_digitizer_page_instructions_description">Swipe the entire screen\nto reveal the hidden image.</string>
+    <!-- Digitizer Modal Swiping -->
+    <string name="pandas_grading_test_digitizer_scratch_component_modal_swiping_title">Keep swiping!</string>
+    <string name="pandas_grading_test_digitizer_scratch_component_modal_swiping_description">You have to swipe your screen from edge to edge!</string>
+    <!-- Digitizer Modal Touch Not Working -->
+    <string name="pandas_grading_test_digitizer_scratch_component_modal_touch_not_working_title">It seems that your touch screen isn\'t fully functional…</string>
+    <string name="pandas_grading_test_digitizer_scratch_component_modal_touch_not_working_description">You have to swipe your screen from edge to edge!</string>
+
+
+    <!-- Sound Performance Page -->
+    <string name="pandas_grading_sound_performance_page_skip_modal_title">Are you sure your microphone doesn\'t work?</string>
+    <string name="pandas_grading_sound_performance_page_evaluate_title">Sound performance</string>
+    <string name="pandas_grading_sound_performance_page_evaluate_description">Unmute your phone and set volume <b>to 100%.</b>\n<b>Remember to stay in a quiet place.</b></string>
+    <string name="pandas_grading_sound_performance_page_check_sound">Check sound</string>
+    <string name="pandas_grading_sound_performance_page_footer_message">My microphone doesn\'t work</string>
+    <string name="pandas_grading_sound_performance_checking_sound">checking sound…</string>
+
+    <!-- Allow Microphone Page -->
+    <string name="pandas_grading_allow_microphone_page_title">Allow microphone access</string>
+    <string name="pandas_grading_allow_microphone_page_description">Required to record audio in order to assess the quality of your microphone.</string>
+    <string name="pandas_grading_allow_microphone_page_privacy_message">We will never share recordings taken from your device. Your data is safe and private.</string>
+    <!-- Test Sound Performance Page -->
+    <string name="pandas_grading_test_sound_performance_page_content_volume_up_alt_img">Volume up</string>
+    <string name="pandas_grading_test_sound_performance_page_content_volume_up_title">Turn the volume up to 100%</string>
+    <string name="pandas_grading_test_sound_performance_page_content_volume_up_description">be sure you are in a quiet place and tap "Start"</string>
+
+    <string name="pandas_grading_test_sound_performance_page_content_volume_down_alt_img">Volume down</string>
+    <string name="pandas_grading_test_sound_performance_page_content_volume_down_title">Turn the <font bgcolor="#4DFF4B55" color="#1A1A1A">volume down</font> at about 50%</string>
+    <string name="pandas_grading_test_sound_performance_page_content_volume_down_description"> </string>
+
+    <string name="pandas_grading_test_sound_performance_page_already_button"> Start </string>
+    <!-- Skip Modal -->
+    <!-- Retry Modal -->
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_primary_button">Retry</string>
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_link_button"><u>Skip this step</u></string>
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_title">Sorry, I didn\'t catch that</string>
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_description">Please check all the above</string>
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_items_list_item_1">Unmute your phone</string>
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_items_list_item_2">Set the volume to 100%</string>
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_items_list_item_3">Make sure your smartphone is not connected to headsets or airpods</string>
+    <string name="pandas_grading_test_sound_performance_page_retry_modal_items_list_item_4">Make sure you turn down loud sounds from other devices</string>
+    <!-- Not Working Modal -->
+
+    <!-- Screen evaluation Page -->
+    <string name="pandas_grading_screen_evaluate_title"> Screen </string>
+    <string name="pandas_grading_screen_evaluate_description"> Check the digitizer, multitouch gestures and LCD condition of your device. </string>
+    <string name="pandas_grading_screen_evaluate_button"> Check Screen </string>
+    <string name="pandas_grading_screen_evaluate_page_img_alt" translatable="false"> hardware buttons icon </string>
+
+    <!-- Face Id Page -->
+    <string name="pandas_grading_face_id_page_evaluate_title"> Biometrics </string>
+    <string name="pandas_grading_face_id_page_evaluate_description"> Assess the biometrics functionality of your device. </string>
+    <string name="pandas_grading_face_id_page_check_face_id"> Check Biometrics </string>
+    <string name="pandas_grading_face_id_page_no_face_id"> I haven\'t set up my Biometrics </string>
+    <string name="pandas_grading_face_id_page_footer_message"> Biometrics don\'t work </string>
+    <!-- Skip Modal -->
+    <string name="pandas_grading_face_id_page_skip_modal_title"> Are you sure your Face ID doesn\'t work? </string>
+    <!-- Setup Modal -->
+    <string name="pandas_grading_face_id_page_setup_modal_title"> It\'s OK, you can set up your biometrics now! </string>
+    <string name="pandas_grading_face_id_page_setup_modal_description"> Tap on the button to see how to set up your device\'s biometrics </string>
+    <string name="pandas_grading_face_id_page_setup_modal_button"> Set up biometrics </string>
+    <!-- Fail Modal -->
+    <string name="pandas_grading_face_id_page_fail_modal_title"> It seems that your biometrics aren\'t fully functional… </string>
+
+
+    <!-- Allow Face Id Page -->
+    <string name="pandas_grading_allow_face_id_page_img_alt" translatable="false"> hardware buttons icon </string>
+    <string name="pandas_grading_allow_face_id_page_title" translatable="false"> Allow biometrics access </string>
+    <string name="pandas_grading_allow_face_id_page_description" translatable="false"> Required access to test the functionality of your device\'s biometrics. </string>
+    <string name="pandas_grading_allow_face_id_page_privacy_message" translatable="false"> We will never share biometric data taken from your device. Your data are safe and private. </string>
+
+
+    <!-- Back Camera Page -->
+    <string name="pandas_grading_back_camera_page_skip_modal_title"> Are you sure your camera doesn\'t work? </string>
+    <string name="pandas_grading_back_camera_page_evaluate_title"> Back Camera condition </string>
+    <string name="pandas_grading_back_camera_page_evaluate_description_store"> Check the condition of your back camera by detecting an object inside the store.  </string>
+    <string name="pandas_grading_back_camera_page_footer_message"> My back camera doesn\'t work </string>
+    <!-- Back Camera Page Instructions Store -->
+    <string name="pandas_grading_back_camera_page_instructions_store_description">Point the camera to any object. Just wait for the AI to identify it.</string>
+    <string name="pandas_grading_back_camera_page_instructions_store_no_picture">No pictures taken!</string>
+
+    <!-- Allow Camera Page -->
+    <string name="pandas_grading_allow_camera_page_title"> Allow camera access </string>
+    <string name="pandas_grading_allow_camera_page_description_store"> Required to take photos in order to assess the quality of your cameras </string>
+    <string name="pandas_grading_allow_camera_privacy_message_store"> We will never share recordings taken from your device. Your data is safe and private. </string>
+
+
+    <!-- Front Camera Page -->
+    <string name="pandas_grading_front_camera_page_skip_modal_title"> Are you sure your camera doesn\'t work? </string>
+    <string name="pandas_grading_front_camera_page_evaluate_title"> Front Camera Condition </string>
+    <string name="pandas_grading_front_camera_page_evaluate_description_store"> Check the condition of your front camera by detecting your face with it. </string>
+    <string name="pandas_grading_front_camera_page_footer_message"> My front camera doesn\'t work </string>
+    <!-- Front Camera Page Instructions Store -->
+    <string name="pandas_grading_front_camera_page_instructions_store_title">Position your face within frame</string>
+    <string name="pandas_grading_front_camera_page_instructions_store_description">A quick check that your front camera is working. Smile:)</string>
+    <string name="pandas_grading_front_camera_page_instructions_store_no_picture">No pictures taken!</string>
+    <!-- Camera Page Skip Modal -->
+    <string name="pandas_grading_test_camera_page_modal_emoji"> 😔 </string>
+    <string name="pandas_grading_test_camera_page_modal_title">Oh snap…</string>
+    <string name="pandas_grading_test_camera_page_modal_description">If we don\'t evaluate your Camera, we\'ll have to give you lower trade in quote.</string>
+    <string name="pandas_grading_test_camera_page_modal_primary_button">Check camera</string>
+
+    <!-- Image Preview Page -->
+    <string name="pandas_grading_image_preview_page_heading">Is the phone completely visible and in-focus?</string>
+    <string name="pandas_grading_image_preview_page_retake">No, retake photo</string>
+
+
+    <!-- Multitouch Page -->
+    <string name="pandas_grading_multitouch_page_title">Multitouch gestures</string>
+    <string name="pandas_grading_multitouch_page_description">Check the functionality of your screen\'s multitouch gestures.</string>
+    <string name="pandas_grading_multitouch_page_check_multitouch">Check  Multitouch</string>
+    <string name="pandas_grading_multitouch_page_footer_message">My screen\'s multitouch doesn\'t work</string>
+    <string name="pandas_grading_multitouch_page_skip_modal_title">Are you sure your multitouch doesn\’t work?</string>
+    <string name="pandas_grading_multitouch_page_intro_modal_title">Let\'s check your screen\'s multitouch</string>
+    <string name="pandas_grading_multitouch_page_intro_modal_description">Tap on the popup and touch your screen with 2 fingers</string>
+
+
+    <!-- Test Multitouch Page -->
+    <string name="pandas_grading_test_multitouch_page_instructions_two_fingers">Touch your screen\nwith 2 fingers</string>
+    <string name="pandas_grading_test_multitouch_page_instructions_three_fingers">Great! Now, touch your screen with 3 fingers</string>
+    <!-- Test Multutocuh Page Retry Modal -->
+    <string name="pandas_grading_test_multitouch_page_retry_modal_title">I didn\'t sense any touch…</string>
+    <string name="pandas_grading_test_multitouch_page_retry_modal_description">You have to touch  the device with two fingers</string>
+    <string name="pandas_grading_test_multitouch_page_retry_modal_skip_test">Skip this step</string>
+    <!-- Test Multutocuh Page Fail Modal -->
+
+
+    <!-- Device Motion Page -->
+    <string name="pandas_grading_device_motion_page_evaluate_title">Sensors</string>
+    <string name="pandas_grading_device_motion_page_evaluate_description">Check the functionality of your device\'s accelerometer and gyroscope.</string>
+    <string name="pandas_grading_device_motion_page_check_device_motion">Check  Sensors</string>
+    <string name="pandas_grading_device_motion_page_no_device_motion">My sensors don\'t work</string>
+    <!-- Device Motion Page Skip Modal -->
+    <string name="pandas_grading_device_motion_page_skip_modal_title">Are you sure your sensors don\'t work?</string>
+    <!-- Device Motion Page Intro Modal -->
+    <string name="pandas_grading_device_motion_page_intro_modal_button">Tap to start!</string>
+    <string name="pandas_grading_device_motion_page_intro_modal_title">Tilt your device</string>
+    <string name="pandas_grading_device_motion_page_intro_modal_description">Try to hit all the marks with the ball</string>
+    <!-- Device Motion Page Warning Modal -->
+    <string name="pandas_grading_device_motion_page_warning_modal_title">I didn\'t sense any movement…</string>
+    <string name="pandas_grading_device_motion_page_warning_modal_description">You have to tilt the device</string>
+    <string name="pandas_grading_device_motion_page_warning_modal_second_button">Skip this step</string>
+    <!-- Device Motion Page Fail Modal -->
+    <string name="pandas_grading_device_motion_page_fail_modal_title">It seems that your device\'s sensors aren\'t fully functional…</string>
+
+    <!-- Test Device Motion Page -->
+    <string name="pandas_grading_test_device_motion_page_loading">Loading</string>
+    <string name="pandas_grading_test_loading_ai">AI is Loading</string>
+    <string name="pandas_grading_test_device_motion_page_evaluate_heading">Move the ball to hit the target</string>
+    <string name="pandas_grading_test_device_motion_page_evaluate_no_device_motion">My sensors don\'t work</string>
+
+
+    <!-- Mirror Walkthrough Page -->
+    <string name="pandas_grading_mirror_walkthrough_page_title">What you will need before you start</string>
+    <string name="pandas_grading_mirror_walkthrough_page_slide_1_title">Have access to a mirror</string>
+    <string name="pandas_grading_mirror_walkthrough_page_slide_2_title">Stand  in a bright room</string>
+    <string name="pandas_grading_mirror_walkthrough_page_slide_3_title">Avoid covering the device with your fingers</string>
+    <string name="pandas_grading_mirror_walkthrough_page_slide_4_title">Remove cases, damaged screen protectors etc</string>
+    <string name="pandas_grading_mirror_walkthrough_page_button">Start now!</string>
+
+
+    <!-- Front Condition Page -->
+    <string name="pandas_grading_front_condition_page_title">Front Condition</string>
+    <string name="pandas_grading_front_condition_page_description">Check the condition of your front camera using a clean mirror.</string>
+    <string name="pandas_grading_front_condition_page_button">Check front condition</string>
+    <string name="pandas_grading_front_condition_page_footer_message">My front camera doesn\'t work</string>
+
+
+    <!-- Test Front Condition Page -->
+    <!-- Modal -->
+    <string name="pandas_grading_test_front_condition_page_modal_emoji" translatable="false"> 😔 </string>
+    <string name="pandas_grading_test_front_condition_page_modal_title">Oh snap…</string>
+    <string name="pandas_grading_test_front_condition_page_modal_description">If we don\'t evaluate your Camera, we\'ll have to give you lower trade in quote.</string>
+    <string name="pandas_grading_test_front_condition_page_modal_primary_button">Check camera</string>
+    <!-- Instructions -->
+    <string name="pandas_grading_test_front_condition_page_instructions_title">Capture Front</string>
+    <string name="pandas_grading_test_front_condition_page_instructions_description">Take a clear photo of your old device\'s front side, no finger cover</string>
+
+
+    <!-- Back Condition Page -->
+    <string name="pandas_grading_back_condition_page_title">Back Condition</string>
+    <string name="pandas_grading_back_condition_page_description">Check the condition of your back camera  using a clean mirror. Please remove your case.</string>
+    <string name="pandas_grading_back_condition_page_button">Check back condition</string>
+    <string name="pandas_grading_back_condition_page_footer_message">My back camera doesn\'t work</string>
+
+
+    <!-- Test Back Condition Page -->
+    <!-- Modal -->
+    <string name="pandas_grading_test_back_condition_page_modal_emoji" translatable="false"> 😔 </string>
+    <string name="pandas_grading_test_back_condition_page_modal_title">Oh snap…</string>
+    <string name="pandas_grading_test_back_condition_page_modal_description">If we don\'t evaluate your Camera, we\'ll have to give you lower trade in quote.</string>
+    <string name="pandas_grading_test_back_condition_page_modal_primary_button">Check camera</string>
+    <!-- Instructions -->
+    <string name="pandas_grading_test_back_condition_page_instructions_title">Capture Back</string>
+    <string name="pandas_grading_test_back_condition_page_instructions_description">Take a clear photo of your old device\'s back side, no finger cover</string>
+
+    <!-- Detection Guards -->
+
+
+    <!-- Grading Answer Loading -->
+    <string name="pandas_grading_grading_answer_loading_title">Checking your image</string>
+
+
+    <!-- Grading Answers List Page -->
+    <string name="pandas_grading_grading_answers_list_dialog_title">Please retake your photos</string>
+    <string name="pandas_grading_grading_answers_list_dialog_description">We cannot use your photos for grading, please retake cleaner photos</string>
+    <string name="pandas_grading_grading_answers_list_dialog_button">Retake photos</string>
+    <string name="pandas_grading_grading_answers_list_page_title">Let\'s try again!</string>
+    <string name="pandas_grading_grading_answers_list_page_description">Improve the items on the list bellow so we can have better photos of your device</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_out_of_focus">Please ensure the photo of the device is clear and in focus.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_brightness">Please capture device photo in brighter environment.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_device_not_visible">Please ensure the device is clearly visible on the captured photo</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_accessories">Please remove visible stickers and/or damaged screen protectors/covers</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_device_holding">Please ensure your hands do not cover the front screen of the device.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_photos_error">Please ensure the photo of the device is clear and in focus.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_align_phone">Please ensure the device is aligned with the frame.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_not_properly_flipped">Please ensure the device is properly flipped.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_clean_phone">Please clean the device.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_turn_on_screen">Please turn on the screen of the device.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_remove_cover">Please remove the cover from the device.</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_empty_drawer">Empty Drawer</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_no_ocr_screen">The IMEI is not displayed on the screen</string>
+    <string name="pandas_grading_grading_answers_list_page_answers_remove_film">Remove Film</string>
+
+    <string name="pandas_grading_grading_answers_list_page_button">Retake photo</string>
+
+
+    <!-- IMEI Page -->
+    <string name="pandas_grading_imei_page_top_title_title">Almost done!</string>
+    <string name="pandas_grading_imei_page_top_title_description">In order to finalize the assessment, we need you to provide us with your device\'s IMEI. Find the IMEI number, copy it, and paste it below.</string>
+    <string name="pandas_grading_imei_page_input_label">IMEI</string>
+    <string name="pandas_grading_imei_page_input_placeholder">Enter your IMEI number</string>
+    <string name="pandas_grading_imei_page_input_valid_imei">Valid IMEI number.</string>
+    <string name="pandas_grading_imei_page_input_invalid_imei">Please type a valid IMEI</string>
+    <string name="pandas_grading_imei_page_submit_imei">Submit IMEI</string>
+    <string name="pandas_grading_imei_page_get_imei">Get IMEI</string>
+    <string name="pandas_grading_imei_page_identifying_device">Identifying device…</string>
+    <string name="pandas_grading_imei_page_help_list_title">How to find IMEI</string>
+    <string name="pandas_grading_imei_page_help_list_step_1">Press <b>Get IMEI</b> button</string>
+    <string name="pandas_grading_imei_page_help_list_step_2"><b>Find</b> your IMEI number</string>
+    <string name="pandas_grading_imei_page_help_list_step_3"><b>Copy</b> IMEI, and <b>paste</b> it above</string>
+
+    <!-- Personal Info Page -->
+    <string name="pandas_grading_personal_info_page_title">Personal Info</string>
+    <string name="pandas_grading_personal_info_page_description">Enter your personal info to continue</string>
+
+    <!-- Dial Info Page -->
+    <string name="pandas_grading_dial_info_page_title">Please Dial</string>
+    <string name="pandas_grading_dial_info_page_description">Leave this screen on and insert the device back into the drawer.</string>
+    <string name="pandas_grading_dial_info_page_button">Open dial-pad</string>
+
+    <!-- Status Message Shell -->
+    <string name="pandas_grading_status_message_shell_message_1">We successfully \nidentified your device!</string>
+    <string name="pandas_grading_status_message_shell_message_2">Just a moment,\nwe\'re preparing your quote.</string>
+
+    <!-- Get Quote Page -->
+    <string name="pandas_grading_get_quote_page_top_title_title">Get your quote.</string>
+    <string name="pandas_grading_get_quote_page_top_title_description">Enter your email so as to forward our offer to your inbox as too.</string>
+    <string name="pandas_grading_get_quote_page_input_valid_email">E-mail valid</string>
+    <string name="pandas_grading_get_quote_page_input_invalid_email">Please type a valid E-mail</string>
+    <string name="pandas_grading_get_quote_page_view_offer">View offer</string>
+
+
+    <!-- Offer Page -->
+    <string name="pandas_grading_offer_page_loader">Preparing your offer</string>
+    <string name="pandas_grading_offer_page_modal_title">We are sorry, we don\'t buy your smartphone at the moment.</string>
+    <string name="pandas_grading_offer_page_trade_in">Trade in for up to <strike><b>%1$s</b></strike> </string>
+    <string name="pandas_grading_offer_page_button_action_1">Trade in now</string>
+    <string name="pandas_grading_offer_page_button_action_2">Do you have promo code?</string>
+    <string name="pandas_grading_offer_page_button_voucher">Voucher up to <b>%1$s</b></string>
+    <string name="pandas_grading_offer_page_button_cash">Cash Deposit up to <b>%1$s</b></string>
+    <string name="pandas_grading_offer_page_final_price">The final price will be determined after the final evaluation of the device. <b>You have %1$s to claim the offer</b>.</string>
+    <string name="pandas_grading_offer_page_binding_offer">Need a final offer?</string>
+    <string name="pandas_grading_offer_page_detailed_report">Detailed report</string>
+    <string name="pandas_grading_offer_page_evaluation_list_digitizer">Digitizer</string>
+    <string name="pandas_grading_offer_page_evaluation_list_front_camera">Front camera</string>
+    <string name="pandas_grading_offer_page_evaluation_list_back_camera">Back camera</string>
+    <string name="pandas_grading_offer_page_evaluation_list_speakers">Speakers</string>
+    <string name="pandas_grading_offer_page_evaluation_list_multitouch">Multitouch</string>
+    <string name="pandas_grading_offer_page_evaluation_list_face_id_touch_id">Face ID / Touch ID</string>
+    <string name="pandas_grading_offer_page_evaluation_list_sensors">Sensors</string>
+    <string name="pandas_grading_offer_page_info_price_title">How we calculate our prices?</string>
+    <string name="pandas_grading_offer_page_info_price_description">The offer we give you is calculated based on the condition of your device, as well as characteristics such as its brand, the model, and its capacity. Additionally, in collaboration with the biggest marketplaces of refurbished devices, we check the demand of your phone in the market. We Pandas keep a fee (avg. 10% of the price offered) to evaluate and transport your device and you get paid in less than 3\'.</string>
+    <string name="pandas_grading_offer_page_info_promo_title">Please enter your promo code</string>
+    <string name="pandas_grading_offer_page_promo_applied"><b>%1$s</b> Promo code applied</string>
+    <string name="pandas_grading_offer_page_info_input_placeholder">Type promo code</string>
+    <string name="pandas_grading_offer_page_info_submit">Submit</string>
+    <string name="pandas_grading_offer_page_evaluation_warning">If you wish to run a new round of diagnostic checks you can click below. The updated diagnostic results will override any previous ones.</string>
+    <string name="pandas_grading_offer_page_exit_evaluation">Retake Evaluation</string>
+    <string name="pandas_grading_offer_page_invalid_promo_code">Invalid promo code</string>
+
+
+    <!-- Trade Option Page -->
+    <string name="pandas_grading_trade_option_page_title">Select trade in option.</string>
+
+    <string name="pandas_grading_trade_option_page_option_courier_at_store_title">Drop off @ Courier</string>
+    <string name="pandas_grading_trade_option_page_option_courier_at_store_description">We will arrange a courier to  pick up your device from your place. Your device will be evaluated within a day.</string>
+
+    <string name="pandas_grading_trade_option_page_option_at_store_title">Drop off  @ Store</string>
+    <string name="pandas_grading_trade_option_page_option_at_store_description">Drop off your device at the nearest %1$s store and get a voucher instantly!</string>
+
+
+    <!-- Courier Unavailable Page -->
+    <string name="pandas_grading_courier_unavailable_page_title">Courier drop off is unavailable during testing period</string>
+    <string name="pandas_grading_courier_unavailable_page_button">Drop Off @ Store</string>
+
+
+    <!-- Store Locations Page -->
+
+
+    <!-- Success Messages & Emojis -->
+    <string name="pandas_grading_success_emoji_front_camera"> 😃 </string>
+    <string name="pandas_grading_success_message_front_camera"> Bravo! </string>
+    <string name="pandas_grading_success_emoji_back_camera"> 🙌 </string>
+    <string name="pandas_grading_success_message_back_camera"> Great! </string>
+    <string name="pandas_grading_success_emoji_digitizer"> 👏 </string>
+    <string name="pandas_grading_success_message_digitizer"> Very nice! </string>
+    <string name="pandas_grading_success_emoji_sound"> 🤘 </string>
+    <string name="pandas_grading_success_message_sound"> Sounds good! </string>
+    <string name="pandas_grading_success_emoji_face_id"> 😃 </string>
+    <string name="pandas_grading_success_message_face_id"> Beautiful! </string>
+    <string name="pandas_grading_success_emoji_front_condition"> 😃 </string>
+    <string name="pandas_grading_success_message_front_condition"> Bravo! </string>
+    <string name="pandas_grading_success_emoji_back_condition"> 😃 </string>
+    <string name="pandas_grading_success_message_back_condition"> Bravo! </string>
+    <string name="pandas_grading_success_emoji_multitouch"> 😃 </string>
+    <string name="pandas_grading_success_message_multitouch"> Super! </string>
+    <string name="pandas_grading_success_emoji_device_motion"> 😃 </string>
+    <string name="pandas_grading_success_message_device_motion"> Bravo! </string>
+    <string name="pandas_grading_success_cosmetic_secondary_device_title">Evaluation complete</string>
+    <string name="pandas_grading_success_cosmetic_secondary_device_description">Tap continue to start the functional tests</string>
+    <string name="pandas_grading_success_content_description">Success icon</string>
+    <string name="pandas_grading_success_screen_test_complete">Screen test complete</string>
+    <string name="pandas_grading_success_sound_test_complete">Sound test complete</string>
+
+
+    <!-- Form Fields -->
+    <string name="pandas_grading_form_field_email_hint">E-mail</string>
+    <string name="pandas_grading_form_field_full_name_hint">Full Name</string>
+    <string name="pandas_grading_form_field_phone_hint">Phone</string>
+
+    <string name="pandas_grading_form_field_error_required">Required field</string>
+    <string name="pandas_grading_form_field_error_invalid_email">Invalid email</string>
+    <string name="pandas_grading_form_field_error_invalid_phone_number">Please type a valid phone number</string>
+
+    <string name="background_img">Background Img</string>
+    <string name="corner">Corner</string>
+    <string name="don_t_allow_access">Don\'t Allow Access</string>
+
+    <!-- Permission dialog -->
+    <string name="pandas_grading_permission_dialog_camera_title">Not allowing access to your camera will terminate the evaluation</string>
+    <string name="pandas_grading_permission_dialog_microphone_title">Not allowing access to your microphone will terminate the evaluation</string>
+    <string name="pandas_grading_permission_dialog_description">You need to complete the evaluation to get the device protection plan</string>
+    <string name="pandas_grading_permission_dialog_positive_action">Resume evaluation</string>
+
+    <!-- Terms and Conditions -->
+    <string name="pandas_grading_terms_i_agree_to_the">I agree to the</string>
+    <string name="pandas_grading_terms_start_new_evaluation">Start new evaluation</string>
+    <string name="pandas_grading_terms_form_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="pandas_grading_terms_form_privacy_policy">Privacy Policy Terms</string>
+    <string name="pandas_grading_terms_intro">Before you continue</string>
+    <string name="pandas_grading_terms_title_emphasized_start">We respect</string>
+    <string name="pandas_grading_terms_title">%s your personal data.</string>
+    <string name="pandas_grading_terms_description">Please review and accept the Privacy Policy and Terms so that we can proceed with the device evaluation.</string>
+
+    <!-- Eligibility Result Screen -->
+    <string name="pandas_grading_eligibility_result_screen_intro">Device protection</string>
+    <string name="pandas_grading_eligibility_result_screen_title_positive">Congratulations!</string>
+    <string name="pandas_grading_eligibility_result_screen_description_positive">This device is eligible for device protection</string>
+    <string name="pandas_grading_eligibility_result_screen_button_positive">Complete Enrollment</string>
+    <string name="pandas_grading_eligibility_result_screen_later_button_positive">Complete later</string>
+    <string name="pandas_grading_eligibility_result_screen_title_negative">Unfortunately</string>
+    <string name="pandas_grading_eligibility_result_screen_description_negative">Unfortunately this device is not eligible for device protection</string>
+    <string name="pandas_grading_eligibility_result_screen_button_negative">Return to homescreen</string>
+    <string name="pandas_grading_eligibility_result_screen_loader">Checking device eligibility</string>
+
+    <!-- Self Assessment Device Turns On Test Screen -->
+    <string name="pandas_grading_self_assessment_device_turns_on_title">Does your device open and function properly?</string>
+    <string name="pandas_grading_self_assessment_device_turns_on_positive_option_description">My device opens and functions properly</string>
+    <string name="pandas_grading_self_assessment_device_turns_on_negative_option_description">My device doesn\'t open or functions properly</string>
+
+    <!-- Self Assessment LCD Condition Test Screen -->
+    <string name="pandas_grading_self_assessment_lcd_condition_title">Is the device free from liquid damage and LCD bleeds?</string>
+    <string name="pandas_grading_self_assessment_lcd_condition_subtitle">Inspect your device carefully and choose from the options below to answer.</string>
+    <string name="pandas_grading_self_assessment_lcd_condition_positive_option_description">The LCD screen is excellent</string>
+    <string name="pandas_grading_self_assessment_lcd_condition_negative_option_description">Excellent condition with minimal marks.</string>
+
+    <!-- Decision Self Assessment Cosmetic Flow Screen -->
+    <string name="pandas_grading_self_assessment_cosmetic_flow_decision_title">Check your front side with a mirror or with the camera of another device</string>
+    <string name="pandas_grading_self_assessment_cosmetic_flow_decision_mirror_option_title">Mirror</string>
+    <string name="pandas_grading_self_assessment_cosmetic_flow_decision_mirror_option_description">I want to continue using a mirror</string>
+    <string name="pandas_grading_self_assessment_cosmetic_flow_decision_external_option_title">Other device</string>
+    <string name="pandas_grading_self_assessment_cosmetic_flow_decision_external_option_description">I want to continue using another device</string>
+
+    <!-- External Device Flow Intro Screen -->
+    <string name="pandas_grading_external_device_flow_intro_screen_intro">Before we start</string>
+    <string name="pandas_grading_external_device_flow_intro_screen_title">What you will need</string>
+    <string-array name="pandas_grading_external_device_flow_intro_preconditions">
+        <item>Remove your device from the case</item>
+        <item>Find a well-lit spot</item>
+        <item>Allow access to your camera</item>
+        <item>Transition to the other device</item>
+    </string-array>
+
+    <!-- External Device Flow QR Screen -->
+    <string name="pandas_grading_external_device_flow_qr_screen_title_emphasized_part">other device</string>
+    <string name="pandas_grading_external_device_flow_qr_screen_title">Scan the QR code with your %s</string>
+    <string name="pandas_grading_external_device_flow_qr_screen_description">We\'ll use your other device\'s camera to take a quick look at the condition of this one!</string>
+
+    <!-- Cosmetic Mirror Page -->
+    <string name="pandas_grading_cosmetic_mirror_intro_title">Front &amp; back side condition</string>
+    <string name="pandas_grading_cosmetic_mirror_intro_description">Check the front and back condition of your device using a mirror.</string>
+    <string name="pandas_grading_cosmetic_mirror_preconditions_intro">Before we start</string>
+    <string name="pandas_grading_cosmetic_mirror_preconditions_title">What you will need</string>
+    <string-array name="pandas_grading_cosmetic_mirror_preconditions">
+        <item>Remove your device from the case</item>
+        <item>Stand in front of a mirror</item>
+        <item>Allow access to your camera</item>
+        <item>Tap the capture button</item>
+        <item>Wait 3 seconds and stand still</item>
+        <item>Check the photo you have captured. Is it bright and in focus?</item>
+    </string-array>
+    <string name="pandas_grading_cosmetic_mirror_front_condition_page_instructions_description">Take a clear photo of your old device\'s front side.</string>
+    <string name="pandas_grading_cosmetic_mirror_back_condition_page_instructions_description">Take a clear photo of your old device\'s back side.</string>
+    <string name="pandas_grading_cosmetic_mirror_grading_answer_loading_title">We are submitting your photos</string>
+    <string name="pandas_grading_cosmetic_mirror_abort_description">If you exit evaluation, your device won\'t be eligible for device protection.</string>
+
+    <!-- Cosmetic Secondary Device -->
+    <string name="pandas_grading_cosmetic_secondary_device_preconditions_title">Before you start</string>
+    <string-array name="pandas_grading_cosmetic_secondary_device_preconditions">
+        <item>Remove case from the device you want to evaluate</item>
+        <item>Find a well-lit spot</item>
+        <item>Allow access to the secondary device’s camera</item>
+        <item>Transition to the other device</item>
+        <item>Wait 3 seconds and stand still</item>
+        <item>Check the photo you have captured. Is it bright and in focus?</item>
+    </string-array>
+    <string name="pandas_grading_cosmetic_secondary_device_front_condition_page_instructions_description">Take a clear photo of the front side of the device that you want to enroll.</string>
+    <string name="pandas_grading_cosmetic_secondary_device_back_condition_page_instructions_description">Take a clear photo of the back side of the device that you want to enroll.</string>
+    <string name="pandas_grading_cosmetic_secondary_device_grading_answer_loading_title">We are evaluating your photos</string>
+    <string name="pandas_grading_cosmetic_secondary_device_abort_description">If you exit evaluation, your device won\'t be eligible for device protection.</string>
+
+    <!-- Second Device Functional Tests -->
+    <string name="pandas_grading_second_device_functional_tests_intro_title">Scan the QR code with your other device</string>
+    <string name="pandas_grading_second_device_functional_tests_intro_description">We’ll continue the evaluation on the other device. Just scan the QR code to proceed.</string>
+    <string name="pandas_grading_second_device_functional_tests_qr_code">QR code</string>
+    <string name="pandas_grading_second_device_functional_tests_how_to_scan_qr_code">How to scan a QR code</string>
+</resources>

@@ -33,7 +33,8 @@ class CustomWebChromeClient(private val parentActivity: Activity) : WebChromeCli
         if(request.resources == null)
             return;
         val permissions = request.resources.mapNotNull {p -> permissionMapping[p] }
-        var hasEveryRight = permissions?.all{ p -> ContextCompat.checkSelfPermission(parentActivity, p) == PackageManager.PERMISSION_GRANTED} == true
+        val hasEveryRight =
+            permissions.all{ p -> ContextCompat.checkSelfPermission(parentActivity, p) == PackageManager.PERMISSION_GRANTED}
         if (!hasEveryRight) {
             ActivityCompat.requestPermissions(
                 parentActivity,

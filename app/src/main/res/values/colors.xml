@@ -4,22 +4,16 @@
     <color name="pandas_border"> #E0E0E0</color>
     <color name="pandas_white"> #FFFFFF</color>
     <color name="pandas_green"> #1FAD43</color>
-    <color name="pandas_concrete"> #F2F2F2</color>
-    <color name="pandas_aero_blue"> #BBFFCC</color>
     <color name="pandas_dark"> #1D1D1D</color>
     <color name="pandas_dark_2"> #1A1A1A</color>
-    <color name="pandas_dark_3">#191919</color>
-    <color name="pandas_dark_2_transparent_70"> #B31A1A1A</color>
     <color name="pandas_nobel"> #B3B3B3</color>
     <color name="pandas_grey"> #6C6C6C</color>
     <color name="pandas_grey_light"> #93989E</color>
     <color name="pandas_grey_lighter"> #cccccc</color>
     <color name="pandas_gray_4"> #808080</color>
     <color name="pandas_gray_5"> #666666</color>
-    <color name="pandas_gray_6"> #717171</color>
     <color name="pandas_gray_7"> #E6E6E6</color>
     <color name="pandas_background_grey"> #F7F7F7</color>
-    <color name="pandas_peach">#EDDACC</color>
 
     <color name="pandas_brand_new"> #CE90FF</color>
     <color name="pandas_brand_new_light"> #E1C2F9</color>

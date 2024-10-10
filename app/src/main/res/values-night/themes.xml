@@ -1,7 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Gradingsdkandroidexample" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.PandasGrading" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pandas_good</item>
+        <item name="colorPrimaryVariant">@color/pandas_good_light</item>
+        <item name="colorOnPrimary">@color/pandas_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pandas_brand_new</item>
+        <item name="colorSecondaryVariant">@color/pandas_fail_light</item>
+        <item name="colorOnSecondary">@color/pandas_white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
     </style>
 </resources>

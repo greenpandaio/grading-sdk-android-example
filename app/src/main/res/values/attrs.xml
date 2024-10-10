@@ -7,4 +7,10 @@
         <attr format="dimension" name="overlay_height"/>
         <attr format="float" name="reveal_threshold" />
     </declare-styleable>
+    <declare-styleable name="CustomBinding">
+        <attr name="visibleGone" format="boolean" />
+        <attr name="backgroundTint" format="reference|color" />
+        <attr name="bitmapBackground" format="reference" />
+        <attr name="selected" format="boolean" />
+    </declare-styleable>
 </resources>
