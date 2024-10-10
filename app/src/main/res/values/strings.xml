@@ -20,6 +20,7 @@
     <string name="pandas_grading_common_evaluation_failed"> Evaluation failed </string>
     <string name="pandas_grading_common_evaluation_skipped"> Evaluation skipped </string>
     <string name="pandas_grading_common_take_photo_button">Take photo</string>
+    <string name="pandas_grading_common_taking_photo_button">Taking photo</string>
     <string name="pandas_grading_common_yes">Yes</string>
     <string name="pandas_grading_common_no">No</string>
     <string name="pandas_grading_common_generic_error">Something went wrong. Try again.</string>
@@ -519,6 +520,8 @@
     <string name="pandas_grading_cosmetic_mirror_abort_description">If you exit evaluation, your device won\'t be eligible for device protection.</string>
 
     <!-- Cosmetic Secondary Device -->
+    <string name="pandas_grading_cosmetic_secondary_device_intro_title">Front &amp; back side condition</string>
+    <string name="pandas_grading_cosmetic_secondary_device_intro_description">Check the front and back condition of the secondary device using this device.</string>
     <string name="pandas_grading_cosmetic_secondary_device_preconditions_title">Before you start</string>
     <string-array name="pandas_grading_cosmetic_secondary_device_preconditions">
         <item>Remove case from the device you want to evaluate</item>
